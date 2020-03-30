@@ -1,0 +1,26 @@
+{
+	"name": "proxy-server",
+	"version": "1.0.0",
+	"description": "proxy server to handle api requests from server not client",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"author": "Mark Fernandez",
+	"license": "MIT",
+	"dependencies": {
+		"@babel/core": "^7.6.4",
+		"@babel/preset-env": "^7.6.3",
+		"@babel/preset-react": "^7.6.3",
+		"axios": "^0.19.2",
+		"babel-loader": "^8.0.6",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-rate-limit": "^5.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.2"
+	}
+}

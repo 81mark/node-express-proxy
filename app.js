@@ -25,7 +25,7 @@ app.use(cors());
 // app.use(limiter);
 
 // Test route, visit localhost:4000 to confirm it's working!
-app.get('/', (req, res) => res.send('<h1>Proxy Server is up</h1>'));
+app.get('/', (req, res) => res.send('<h1>Proxy Server is up!</h1>'));
 
 // Get url and query from our client side and then make request below
 app.get('/api/v1/profile-search', async (req, res) => {

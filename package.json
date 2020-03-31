@@ -10,11 +10,7 @@
 	"author": "Mark Fernandez",
 	"license": "MIT",
 	"dependencies": {
-		"@babel/core": "^7.6.4",
-		"@babel/preset-env": "^7.6.3",
-		"@babel/preset-react": "^7.6.3",
 		"axios": "^0.19.2",
-		"babel-loader": "^8.0.6",
 		"cors": "^2.8.5",
 		"dotenv": "^8.2.0",
 		"express": "^4.17.1",
